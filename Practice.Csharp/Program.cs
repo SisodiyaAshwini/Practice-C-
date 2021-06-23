@@ -52,7 +52,27 @@
             //ExplictInterface.Practice();
 
             //Delegates.Practice(); 
-            MulticastDelegates.Practice();
+            //MulticastDelegates.Practice();
+
+            //Reflection
+            //Reflection.Practice();
+
+            //generics
+            //Generics.Practice();
+
+            //Equals Method
+            //ToString() or Convert.ToString()
+            //ObjectClass.Practice();
+
+            //Dictionary
+            //convert array to dictionary
+            //Dictionary.Practice();
+
+            //List
+            //List.Practice();
+
+            //Sorting complex object
+            ListSort.Practice1();
         }
     }
 }
