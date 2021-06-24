@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Practice.Csharp
 {
+    //dictionary vs list
+    //When there are two many data to loop in dictionary is better
     public partial class List
     {
         public static void Practice()

@@ -72,7 +72,16 @@
             //List.Practice();
 
             //Sorting complex object
-            ListSort.Practice1();
+            //ListSort.Practice1();
+
+            //Anonymous Methods, using var keyword
+            //AnonymousMethods.Practice();
+
+            //Lambda expression
+            //LambdaExpression.Practice();
+
+            //Func
+            //Func.Practice();
         }
     }
 }
