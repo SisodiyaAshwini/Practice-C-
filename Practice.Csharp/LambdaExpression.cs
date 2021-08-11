@@ -4,6 +4,17 @@ using System.Linq;
 
 namespace Practice.Csharp
 {
+    //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions
+    //(input-parameters) => expression
+    //(input-parameters) => { <sequence-of-statements> }
+
+    /*
+     * Any lambda expression can be converted to a delegate type. The delegate type to which a lambda expression can be converted is defined by the types of its parameters and return value. 
+     * If a lambda expression doesn't return a value, it can be converted to one of the Action delegate types; otherwise, it can be converted to one of the Func delegate types. For example, 
+     * a lambda expression that has two parameters and returns no value can be converted to an Action<T1,T2> delegate. 
+     * A lambda expression that has one parameter and returns a value can be converted to a Func<T,TResult> delegate
+     */
+
     //Lambda is read as goes to 
     //Find(Emp => Emp.ID == 102)
     //emp is input parameter

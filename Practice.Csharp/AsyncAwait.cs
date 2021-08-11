@@ -2,6 +2,8 @@
 
 namespace Practice.Csharp
 {
+    //Best Article : https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+    //About thread pool : https://docs.microsoft.com/en-us/dotnet/standard/threading/the-managed-thread-pool#using-the-thread-pool
     public class AsyncAwait
     {
         /*
@@ -32,5 +34,53 @@ namespace Practice.Csharp
             int[] number = { 3, 5, 6, 7, 3 };
             return number.Length;
         }
+
+        //        Coffee cup = PourCoffee();
+        //        Console.WriteLine("coffee is ready");
+
+        // Started all task parallely
+
+        //        Task<Egg> eggsTask = FryEggsAsync(2);
+        //        Task<Bacon> baconTask = FryBaconAsync(3);
+        //        Task<Toast> toastTask = ToastBreadAsync(2);
+
+        //Await when result is needed
+
+        //        Toast toast = await toastTask;
+        //        ApplyButter(toast);
+        //        ApplyJam(toast);
+        //        Console.WriteLine("toast is ready");
+        //        Juice oj = PourOJ();
+        //        Console.WriteLine("oj is ready");
+
+        //        Egg eggs = await eggsTask;
+        //        Console.WriteLine("eggs are ready");
+        //        Bacon bacon = await baconTask;
+        //        Console.WriteLine("bacon is ready");
+
+        //        Console.WriteLine("Breakfast is ready!");
+
+        //static async Task Main(string[] args) //completes task, it has multiple tasks
+        //{
+        //    Coffee cup = PourCoffee();
+        //    Console.WriteLine("coffee is ready");
+
+        //    var eggsTask = FryEggsAsync(2); 
+        //    var baconTask = FryBaconAsync(3);
+        //    var toastTask = MakeToastWithButterAndJamAsync(2);
+
+        //    var eggs = await eggsTask;
+        //    Console.WriteLine("eggs are ready");
+
+        //    var bacon = await baconTask;
+        //    Console.WriteLine("bacon is ready");
+
+        //    var toast = await toastTask;
+        //    Console.WriteLine("toast is ready");
+
+        //    Juice oj = PourOJ();
+        //    Console.WriteLine("oj is ready");
+        //    Console.WriteLine("Breakfast is ready!");
+        //}
     }
 }

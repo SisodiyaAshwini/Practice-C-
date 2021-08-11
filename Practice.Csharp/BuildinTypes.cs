@@ -23,10 +23,12 @@ namespace Practice.Csharp
             double d = 34.64928364; //64 bit            
             decimal dd = 32.56537M; // 124 bit, add M
 
-            
+
             //String type
             //String is reference type. hence default value is null
             //Print the double quote as well. This can be done be escape sequence.
+
+            //Good article on string manipulation https://docs.microsoft.com/en-us/dotnet/csharp/how-to/modify-string-contents#code-try-2
 
             string name = "\"Ashwini\"";
             Console.WriteLine("My name is {0}", name);
