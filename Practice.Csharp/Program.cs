@@ -82,6 +82,9 @@
 
             //Func
             //Func.Practice();
+
+            //IsAs
+            IsAs.Practice();
         }
     }
 }
